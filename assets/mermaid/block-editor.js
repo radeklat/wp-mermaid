@@ -9,7 +9,7 @@
 
 ( function( blocks ) {
 
-    blocks.registerBlockType( 'wp-mermaid/block', {
+	blocks.registerBlockType( 'wp-mermaid/block', {
 
 		title: 'WP Mermaid',
 
@@ -58,7 +58,7 @@
 						},
 						[
 							wp.element.createElement(
-								wp.editor.PlainText,
+								wp.blockEditor.PlainText,
 								{
 									onChange: onChangeContent,
 									value: content
@@ -71,7 +71,7 @@
 						'div',
 						{
 							className: props.className,
-							dangerouslySetInnerHTML: {  __html: rendered }
+							dangerouslySetInnerHTML: { __html: rendered }
 						}
 					)
 				]
@@ -88,8 +88,12 @@
 				},
 				"\n" + content + "\n"
 			);
-        }
-    } );
+		}
+	} );
+
+	window.setTimeout( () => {
+		mermaid.init();
+	}, 1000 );
 } )(
 	window.wp.blocks
 );
