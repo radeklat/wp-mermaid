@@ -78,4 +78,10 @@ GNU General Public License for more details.
 - Upgrade Mermaid JavaScript library from 8.9.0 to 9.4.3
 - Add Japanese translation.
 
+- 2.0.0
+
+- Upgrade Mermaid JavaScript library from 9.4.3 to 10.8.0. Since this is a major version update, it can break existing diagrams!
+- Fix rendering due to characters replacement by switching from top level div HTML tag to pre.
+- Add settings option to specify Mermaid version delivered from CDNs so that plugin doesn't have to be updated on new versions.
+
 == Upgrade Notice ==
