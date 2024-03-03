@@ -53,19 +53,27 @@ Fill in your Mermaid syntax in the editor.
 
 ### Changelog
 
-1.0.0
+#### 1.0.0
 
 - First release.
 
-1.0.1
+#### 1.0.1
 
 - Upgrade Mermaid JavaScript library from 8.5.0 to 8.9.0
 
-1.0.2
+#### 1.0.2
 
 - Add Japanese (ja_JP) translation, thanks to [Colocal](https://colocal.com/).
 - Test with PHP 8.2.5 and WordPress 6.2.2
 - Upgrade Mermaid JavaScript library from 8.9.0 to 9.4.3
+
+#### 2.0.0
+
+- Upgrade Mermaid JavaScript library from 9.4.3 to 10.8.0. Since this is a major version update, it can break existing diagrams! (@radeklat)
+- Fix rendering due to characters replacement by switching from top level div HTML tag to pre. (@radeklat)
+- Add settings option to specify Mermaid version delivered from CDNs so that plugin doesn't have to be updated on new versions. (@radeklat)
+- Fix loading diagrams on editor load (@n3f)
+- Fix deprecated code (@n3f)
 
 
 ### License

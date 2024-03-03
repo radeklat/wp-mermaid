@@ -80,8 +80,10 @@ GNU General Public License for more details.
 
 - 2.0.0
 
-- Upgrade Mermaid JavaScript library from 9.4.3 to 10.8.0. Since this is a major version update, it can break existing diagrams!
-- Fix rendering due to characters replacement by switching from top level div HTML tag to pre.
-- Add settings option to specify Mermaid version delivered from CDNs so that plugin doesn't have to be updated on new versions.
+- Upgrade Mermaid JavaScript library from 9.4.3 to 10.8.0. Since this is a major version update, it can break existing diagrams! (@radeklat)
+- Fix rendering due to characters replacement by switching from top level div HTML tag to pre. (@radeklat)
+- Add settings option to specify Mermaid version delivered from CDNs so that plugin doesn't have to be updated on new versions. (@radeklat)
+- Fix loading diagrams on editor load (@n3f)
+- Fix deprecated code (@n3f)
 
 == Upgrade Notice ==
