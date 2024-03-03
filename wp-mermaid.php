@@ -64,7 +64,7 @@ define( 'MERMAID_PLUGIN_PATH', __FILE__ );
 define( 'MERMAID_PLUGIN_LANGUAGE_PACK', dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 define( 'MERMAID_PLUGIN_VERSION', '1.0.2' );
 define( 'MERMAID_PLUGIN_TEXT_DOMAIN', 'wp-mermaid' );
-define( 'MERMAID_JS_VERSION', '9.4.3' );
+define( 'MERMAID_JS_VERSION', '10.8.0' );
 
 // Support WordPress version 4.7 and below.
 if ( ! function_exists( 'wp_doing_ajax' ) ) {
