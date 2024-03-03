@@ -65,6 +65,9 @@ define( 'MERMAID_PLUGIN_LANGUAGE_PACK', dirname( plugin_basename( __FILE__ ) ) .
 define( 'MERMAID_PLUGIN_VERSION', '1.0.2' );
 define( 'MERMAID_PLUGIN_TEXT_DOMAIN', 'wp-mermaid' );
 define( 'MERMAID_JS_VERSION', '10.8.0' );
+// To get a new JS library, run:
+//   version=$(grep "^define( 'MERMAID_JS_VERSION'" wp-mermaid.php | sed "s/.*'\([0-9.]*\)'.*/\1/")
+//   wget -O assets/mermaid/mermaid.min.js https://cdn.jsdelivr.net/npm/mermaid@${version}/dist/mermaid.min.js
 
 // Support WordPress version 4.7 and below.
 if ( ! function_exists( 'wp_doing_ajax' ) ) {
