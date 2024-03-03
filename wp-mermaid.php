@@ -12,7 +12,7 @@
 
 /**
  * Plugin Name: WP Mermaid 2
- * Plugin URI:  https://github.com/terrylinooo/wp-mermaid
+ * Plugin URI:  https://github.com/radeklat/wp-mermaid
  * Description: Generation of diagrams and flowcharts from text in a similar manner as markdown by using mermaid.js
  * Version:     2.0.0
  * Author:      Terry Lin
